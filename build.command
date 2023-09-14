@@ -1,0 +1,1 @@
+cd ~/SiriusXM && nativefier 'player.siriusxm.com' --name 'SiriusXM' --portable --disable-dev-tools --title-bar-style 'hiddenInset'  --icon ico.png --inject site.css --min-width 760 --min-height 600
