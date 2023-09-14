@@ -1,0 +1,17 @@
+/* site.css */
+
+/* header is draggable... shouldn't be in the way of the traffic light */
+.sxm-navbar {
+  -webkit-app-region: drag;
+   margin-left: 50px;
+}
+
+/* but any buttons inside the header shouldn't be draggable */
+li {
+  -webkit-app-region: no-drag;
+}
+
+/* no scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
